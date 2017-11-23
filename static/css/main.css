@@ -151,15 +151,31 @@ section.one {
     font-size: 0.95em;
 }
 
+.button {
+    text-align: center;
+}
+
 section.two {
-    height: 400px;
     width: 100%;
     background-color: #f05f40;
 }
 
-.two h2 {
-    position: absolute;
+.two {
+    padding: 50px;
+}
+
+.two .row h2 {
+    text-align: center;
     color: #fff;
+}
+
+.two .row div.line {
+    text-align: center;
+    border-bottom: 3.5px solid #ffffff;
+}
+
+.two .row button {
+    
 }
 
 .jumbotron {
