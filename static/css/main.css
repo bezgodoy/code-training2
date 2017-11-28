@@ -160,21 +160,21 @@ section.two {
     background-color: #f05f40;
 }
 
-.two {
+section.two {
     padding: 50px;
 }
 
-.two .row h2 {
+section.two .row h2 {
     text-align: center;
     color: #fff;
 }
 
-.two .row div.line {
+section.two .row div.line {
     text-align: center;
     border-bottom: 3.5px solid #ffffff;
 }
 
-.two .row button {
+section.two .row button {
     
 }
 
@@ -189,6 +189,67 @@ section.two {
 }
 
 
+section.three {
+    padding: 150px 0;
+    text-align: center;
+}
+
+section.three p {
+    color: black;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+section.three p.description {
+    color: #868e96;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+section.four .no-padding {
+    padding: 0;
+}
+
+section.four .rectangle {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+section.four .rectangle:hover {
+    width: 100%;
+    height: 230px;
+    background-color: #f05f40;
+    opacity: 0.9;
+}
+
+section.five .container {
+    padding: 200px;
+    background-color: #212529;
+    width: 100%;
+    text-align: center;
+}
+
+section.five button {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+section.six h2 {
+    text-transform: capitalize;
+}
+
+section.six p {
+    color: #212529;
+}
+
+
+
+/* #popo {
+    content: "";
+    height: 150px;
+    width: 300px;
+    background: url('../img/img-teste.jpeg') no-repeat;
+    background-size: cover;
+} */
 
 /* 
 background: 
