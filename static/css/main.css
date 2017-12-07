@@ -226,10 +226,40 @@ section.four .no-padding {
     padding: 0;
 }
 
-section.four .rectangle {
+section.four .rectangle1 {
     width: 100%;
     height: 250px;
     background-image: url("../img/port1.jpg");
+}
+
+section.four .rectangle2 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/port2.jpg");
+}
+
+section.four .rectangle3 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/port3.jpg");
+}
+
+section.four .rectangle4 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/port4.jpg");
+}
+
+section.four .rectangle5 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/port5.jpg");
+}
+
+section.four .rectangle6 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/port6.jpg");
 }
 
 section.four .rectangle-cover {
@@ -237,6 +267,7 @@ section.four .rectangle-cover {
     width: 100%;
     height: 250px;
     position: absolute;
+    padding-top: 90px;
 }
 
 section.four .rectangle-cover:hover {
@@ -244,12 +275,20 @@ section.four .rectangle-cover:hover {
     opacity: 0.8;
 }
 
-section.four .rectangle-cover label {
-    
+section.four .rectangle-cover p.category {
+    text-transform: uppercase;
+    font-family: 'Open sans';
+    font-weight: 600;
+    opacity: 0.6;
+    margin-bottom: 0;
+    font-size: 1.2em;
 }
 
 section.four .rectangle-cover p {
-    
+    font-family: 'Open sans';
+    font-weight: 500;
+    font-size: 1.6em;
+    margin-top: 0;
 }
 
 section.five .container {
@@ -267,6 +306,10 @@ section.five button {
 section.five .row h2 {
     text-align: center;
     color: #fff;
+}
+
+section.six {
+    padding: 100px 0;
 }
 
 section.six h2 {
