@@ -3,7 +3,7 @@ body {
     width: 100%;
     height: auto;
     font-family: 'Open Sans', 'sans serif';
-    font-size: 14px;
+    font-size: 1.0rem;
 }
 nav, .navbar-default {
     background-color: transparent;
@@ -109,7 +109,6 @@ section.one {
     position: relative;
     color: #fff;
     text-transform: uppercase;
-    font-size: 4.5em;
     font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
@@ -118,7 +117,7 @@ section.one {
 
 .row div.line {
     position: relative;
-    border-bottom: 3.5px solid #f05f40;
+    border-bottom: 3px solid #f05f40;
     text-align: center;
     margin: auto;
     width: 50px;
@@ -130,9 +129,9 @@ section.one {
     font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
     position: relative;
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     opacity: 0.75;
     line-height: 1.5em;
 }
@@ -140,7 +139,7 @@ section.one {
 .row button {
     position: relative;
     margin: auto;
-    width: 190px;
+    width: 160px;
     height: 54px;
     border-radius: 27px;
     border-color: transparent;
@@ -148,7 +147,7 @@ section.one {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 0.95em;
+    font-size: 1.1em;
 }
 
 .button {
@@ -321,6 +320,10 @@ section.six p {
     color: #212529;
 }
 
+section.seven {
+    padding: 110px;
+    text-align: center;
+}
 
 
 /* #popo {
