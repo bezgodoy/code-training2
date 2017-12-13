@@ -342,3 +342,9 @@ linear-gradient(
 ),
 url(../img/back-3.jpeg); */
 
+
+
+.rectangle2-cover {
+    background-image: none;
+    background-color: red;
+}
