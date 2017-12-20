@@ -13,10 +13,15 @@
 //     alert('oi');
 // }
 
-$(".rectangle2").hover(
-    function() {
-        $(this).addClass("rectangle2-cover");
-    }, function() {
-        $(this).removeClass("rectangle2-cover");
-    }
-);
+$('.rectangleover').hover(function() {
+    $(this).children().show();
+  }, function() {
+        $(this).children().hide();
+  });
+
+$(window).scroll(function() {
+    $('.navbar').addClass();
+  }, function() {
+        $('.navbar').removeClass();
+  });
+  

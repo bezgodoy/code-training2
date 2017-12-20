@@ -12,6 +12,12 @@ nav, .navbar-default {
     border: none;
 }
 
+.scroll-nav {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+}
+
 nav.navbar-default .navbar-nav>li>a {
     color: #fff;
     opacity: 0.7;
@@ -231,11 +237,11 @@ section.four .rectangle1 {
     background-image: url("../img/port1.jpg");
 }
 
-section.four .rectangle2 {
+/* section.four .rectangle2 {
     width: 100%;
     height: 250px;
     background-image: url("../img/port2.jpg");
-}
+} */
 
 section.four .rectangle3 {
     width: 100%;
@@ -343,8 +349,23 @@ linear-gradient(
 url(../img/back-3.jpeg); */
 
 
+section.four .rectangle2 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/port2.jpg");
+    z-index: 1;
+}
 
-.rectangle2-cover {
-    background-image: none;
-    background-color: red;
+.rectangleover {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+}
+
+.rectangle2over {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(240, 95, 74, 0.8);
 }
